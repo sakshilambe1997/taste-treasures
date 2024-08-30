@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       <Navbar/>
-      <h1 className="website-heading">Taste Treasures</h1>
+      <h1 className="website-heading">Today's Special 😋</h1>
       <div className="food-cards-container">
 
         {

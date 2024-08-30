@@ -76,25 +76,25 @@ const PRODUCTS=[
       },
       
       {
-        imgUrl:"https://img.freepik.com/premium-photo/veg-biryani-veg-pulav-served-bowl-background_136354-23248.jpg",
-                title:"Pulav",
-                description:"Delicious 'Pulav' made with fresh ingridients",
+        imgUrl:"https://img.freepik.com/premium-photo/dal-tadka-is-popular-indian-dish-where-cooked-spiced-lentils-with-tempering-made-ghee-oil-spices_136354-24733.jpg",
+                title:"Dal Tadka",
+                description:"Spicy 'Dak Tadka' made with fresh ingridients",
                 isVeg:true,
                 price:'90'
       },
     
       {
-        imgUrl:"https://img.freepik.com/premium-photo/veg-biryani-veg-pulav-served-bowl-background_136354-23248.jpg",
-                title:"Pulav",
-                description:"Delicious 'Pulav' made with fresh ingridients",
+        imgUrl:"https://img.freepik.com/premium-photo/popular-indian-dish-traditional-food-sev-khaman-dhokla-served-with-green-chutney-chilli_136354-17213.jpg",
+                title:"Dhokla",
+                description:"Tasty 'Dhokla' made with fresh ingridients",
                 isVeg:true,
                 price:'90'
       },
     
       {
-        imgUrl:"https://img.freepik.com/premium-photo/veg-biryani-veg-pulav-served-bowl-background_136354-23248.jpg",
-                title:"Pulav",
-                description:"Delicious 'Pulav' made with fresh ingridients",
+        imgUrl:"https://img.freepik.com/premium-photo/idli-with-sambar-traditional-south-indian-breakfast-with-steamed-rice-cakes-spicy-sambar_875755-7383.jpg",
+                title:"Idli Sambar",
+                description:"Delicious 'Idli Sambar' made with fresh ingridients",
                 isVeg:true,
                 price:'90'
       },
