@@ -7,6 +7,6 @@
 .food-cards-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
