@@ -1,5 +1,12 @@
 
+const MAINTITLE ='Taste Tresures 🥘'
+const TAGLINE ="Today's Special Menu 🥘"
+ const THEME = {
+   highlight :"pink",
+   btncolor :"rgb(240, 240, 50)"
+ }
 
+ const CARD_BUTTON_TEXT = "BUY NOW"
 
 const PRODUCTS=[
     {
@@ -24,7 +31,6 @@ const PRODUCTS=[
               description:"Spicy 'Chiken Biryani' made with fresh ingridients",
               isVeg:false,
               price:'250'
-    
     },
     
     {
@@ -98,9 +104,7 @@ const PRODUCTS=[
                 isVeg:true,
                 price:'90'
       },
-      
-    
     ]
 
-    export {PRODUCTS}
+    export {PRODUCTS,MAINTITLE,TAGLINE,THEME,CARD_BUTTON_TEXT}
     

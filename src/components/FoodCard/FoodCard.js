@@ -2,11 +2,11 @@ import React from 'react'
 import "./FoodCard.css"
 import VegImg from "./veg.png"
 import NonVegImg from "./non-veg.png"
+import {THEME,CARD_BUTTON_TEXT} from "./../../config/data"
 
 function FoodCard({imgUrl,title,description,isVeg,price}) {
   return (
    <>
-
    <div className='food-card'>
    <img src={imgUrl} className='food-img'/>
   <h1 className='food-card-title'>{title}</h1>
@@ -18,12 +18,8 @@ function FoodCard({imgUrl,title,description,isVeg,price}) {
   : null
 }
 
-<button className='food-btn'>Add To Cart</button>
-  
-
+<button className='food-btn' style={{backgroundColor:THEME.btncolor, }}>{CARD_BUTTON_TEXT}</button>
    </div>
-   
-   
    </>
 
   )

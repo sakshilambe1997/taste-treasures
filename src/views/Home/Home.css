@@ -10,3 +10,8 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.website-subtitle{
+    text-align: center ;
+    font-size: 25px;
+    margin: 20px;
+}

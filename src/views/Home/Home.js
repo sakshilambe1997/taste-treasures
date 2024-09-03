@@ -1,14 +1,15 @@
 import React from "react";
 import "./Home.css"
 import FoodCard from "./../../components/FoodCard/FoodCard.js";
-import {PRODUCTS} from "./../../config/data.js"
+import {PRODUCTS,TAGLINE} from "./../../config/data.js"
 import Navbar from "../../components/Navbar/Navbar.js";
 
 function Home() {
   return (
     <div>
       <Navbar/>
-      <h1 className="website-heading">Today's Special 😋</h1>
+      {/* <h1 className="website-heading">{MAINTITLE}</h1> */}
+      <h4 className="website-subtitle">{TAGLINE}</h4>
       <div className="food-cards-container">
 
         {
@@ -21,12 +22,10 @@ function Home() {
             price={foodItem.price}
            
           />
-              
           })
         }
-       
-      
       </div>
+   
     </div>
   );
 }

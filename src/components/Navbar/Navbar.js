@@ -18,8 +18,6 @@ function Navbar() {
         <Link  to='/signup'  className='navbar-menu'>Signup</Link>
        </div>
     </div>
-    
-    
     </>
   )
 }
