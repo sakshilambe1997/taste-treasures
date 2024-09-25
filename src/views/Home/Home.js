@@ -2,6 +2,8 @@ import React from "react";
 import "./Home.css"
 import Navbar from "../../components/Navbar/Navbar.js";
 import backGroundImage from "./backgorund-head-img.jpg"
+import { DeliciousFoodCard } from "../../components/DeliciousFoodCard/DeliciousFoodCard.js";
+import { PRODUCTS } from "../../config/homeData.js";
 
 
 function Home() {
@@ -16,10 +18,24 @@ function Home() {
       </div>
     
      
-      <div>
-           
-      </div>
+      <h2>We have Delicious Food in the town</h2>
+
+        <div className="delicious-food-cards-container">
+
+          {
+            PRODUCTS.map((fooditem,i)=>{
+              return<DeliciousFoodCard
+              imgUrl={fooditem.imgUrl}
+              title={fooditem.title}
+              description={fooditem.description}
+              price={fooditem.price}
+              />
+            })
+          }
+          <DeliciousFoodCard/>
+
       
+        </div>
     </div>
   );
 }

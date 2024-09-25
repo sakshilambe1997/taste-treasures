@@ -1,0 +1,21 @@
+.delicious-food-card-container{
+    background-color: aqua;
+    height: 300px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.delicious-card-img{
+    width: 100%;
+    object-fit: cover;
+    height: 60%;
+}
+
+.delicious-card-title{
+    text-align: center;
+}
+
+.delicious-card-description{
+    text-align: justify;
+}
