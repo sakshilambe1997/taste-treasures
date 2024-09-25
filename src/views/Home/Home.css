@@ -1,5 +1,5 @@
 .home-background-head-img{
-    width: 100vw;
+    width: 99vw;
     object-fit: cover;
     height: 300px;
     position: relative;
@@ -20,9 +20,39 @@
     color: red;
 }
 
+/* Delicious food cards section */
+
 .delicious-food-cards-container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+/* Delivery logo section */
+
+.Delivery-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.delivery-div{
+   width: 150px;
+   text-align: center;
+}
+
+.delivery-logo-img{
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 12);
+}
+
+.delivery-logo-img:hover{
+    transform: scalex(1.2);
+    transition: 0.4s;
 }
 

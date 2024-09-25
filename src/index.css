@@ -15,3 +15,14 @@ body {
   background-color: rgb(183, 183, 12);
   color: white;
 }
+
+.button-center{
+  display: block;
+  margin: 20px auto;
+}
+
+.text-align-center{
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+}
