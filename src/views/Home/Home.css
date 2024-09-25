@@ -1,17 +1,22 @@
-.website-heading{
-    text-align: center;
-    font-size: 30px;
-    margin: 15px;
+.home-background-head-img{
+    width: 100vw;
+    object-fit: cover;
+    height: 300px;
+    position: relative;
 }
 
-.food-cards-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+.background-img-text-div{
+  width: 50%;
+  position: absolute;
+  top: 100px;
+  left: 50px;
 }
-.website-subtitle{
-    text-align: center ;
-    font-size: 25px;
-    margin: 20px;
+
+.heading-text-white{
+    color: white;
 }
+
+.heading-text-red{
+    color: red;
+}
+
