@@ -56,3 +56,11 @@
     transition: 0.4s;
 }
 
+/* trending food card  */
+
+.trending-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

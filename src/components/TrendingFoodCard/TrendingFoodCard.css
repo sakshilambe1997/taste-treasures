@@ -1,0 +1,26 @@
+.trending-card-img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.trending-card-div{
+    height: 200px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.trending-card-div:hover{
+   transform: translateY(-5px);
+   cursor: pointer;
+   box-shadow: 0 0 10px 1px grey;
+}
+
+.trending-title{
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+   font-weight: bold;
+}

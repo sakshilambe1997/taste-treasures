@@ -12,7 +12,7 @@ function FoodCard({imgUrl,title,description,isVeg,price}) {
   <h1 className='food-card-title'>{title}</h1>
   <p className='food-card-description'>{description}</p>
   
-  <img src={isVeg?VegImg : NonVegImg } className='veg-icon'/>
+  <img src={isVeg? VegImg : NonVegImg } className='veg-icon'/>
 {
   price ? <p className='food-price'>₹ {price}</p>
   : null

@@ -1,11 +1,11 @@
 .delicious-food-card-container{
     height: 300px;
     width: 250px;
-    padding: 10px;
     margin: 10px;
     position: relative;
-    border: 1px solid grey;
     border-radius: 10px;
+    box-shadow: 0 0 10px 1px grey;
+    padding: 5px;
 }
 
 .delicious-card-img{
@@ -23,6 +23,7 @@
     background-color: white;
     padding: 5px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .delicious-card-title{

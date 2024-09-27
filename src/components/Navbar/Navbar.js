@@ -13,7 +13,8 @@ function Navbar() {
        <div>
         <Link  to='/'  className='navbar-menu'>Home</Link>
         <Link  to='/about'  className='navbar-menu'>About</Link>
-        <Link  to='/contact'  className='navbar-menu'>Contat</Link>
+        <Link  to='/menu'  className='navbar-menu'>Menu</Link>
+        <Link  to='/contact'  className='navbar-menu'>Contact</Link>
         <Link  to='/login'  className='navbar-menu'>login</Link>
         <Link  to='/signup'  className='navbar-menu'>Signup</Link>
        </div>

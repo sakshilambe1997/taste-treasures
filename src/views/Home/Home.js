@@ -3,10 +3,11 @@ import "./Home.css"
 import Navbar from "../../components/Navbar/Navbar.js";
 import backGroundImage from "./backgorund-head-img.jpg"
 import { DeliciousFoodCard } from "../../components/DeliciousFoodCard/DeliciousFoodCard.js";
-import { DELICIOUSFOODCARDS } from "../../config/homeData.js";
+import { DELICIOUSFOODCARDS,TRENDINGFOODCARDS } from "../../config/homeData.js";
 import DeliveryImg from "./food-delivery.png"
 import Sign from "./agreement.png"
 import Food from "./diet.png"
+import TrendingFoodCard from "../../components/TrendingFoodCard/TrendingFoodCard.js";
 
 
 function Home() {
@@ -47,7 +48,7 @@ function Home() {
     
     {/* delicious-food-card-section */}
 
-      <h2 className="text-align-center">We have Delicious Food in the town</h2>
+      <h2 className="text-align-center">We have delicious dood in the town</h2>
 
         <div className="delicious-food-cards-container">
 
@@ -63,7 +64,23 @@ function Home() {
           }
         </div>
 
-       
+        <h1 className="text-align-center">Trending Now</h1>
+
+        <div className="trending-card-container">
+       {
+        TRENDINGFOODCARDS.map((item,i)=>{
+            const {imgUrl,title}=item
+          return<TrendingFoodCard
+          imgUrl={imgUrl}
+          title={title}
+          />
+        })
+       }
+
+       <h1>Top brands for you</h1>
+
+</div>
+        
     </div>
   );
 }
