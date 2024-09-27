@@ -26,3 +26,9 @@ body {
   font-size: 30px;
   margin: 30px;
 }
+
+.display-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

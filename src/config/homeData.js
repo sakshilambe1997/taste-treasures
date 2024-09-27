@@ -58,7 +58,7 @@ const TRENDINGFOODCARDS=[
       title:"McDonald's"
     },
     {
-      imgUrl:"https://e7.pngegg.com/pngimages/879/540/png-clipart-kfc-logo-illustration-hamburger-kfc-take-out-fast-food-fried-chicken-round-kfc-logo-free-logo-design-template-food.png",
+      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-wqP_d6sbeM1Fpb1_8wGEt3gzs2SQoCujA&s",
       title:"KFC"
     },
 
@@ -73,7 +73,7 @@ const TRENDINGFOODCARDS=[
     },
 
     {
-      imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu5Wgs7dbo4_HQr3m03xTbEvCdbjekxsB9RA&s",
+      imgUrl:"https://upload.wikimedia.org/wikipedia/sco/thumb/d/d2/Pizza_Hut_logo.svg/1088px-Pizza_Hut_logo.svg.png",
       title:" Pizza Hut"
     },
 
