@@ -1,0 +1,13 @@
+.slider-container{
+    display: block;
+    margin: 0 auto;
+    height: 60%;
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.background-img{
+    height: 400px;
+    width: 100%;
+}

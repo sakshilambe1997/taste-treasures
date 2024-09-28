@@ -1,9 +1,9 @@
 .food-card{
     width: 250px;
-    border: 1px solid grey;
     border-radius: 10px;
     margin: 20px;
-    padding: 10px;
+    box-shadow: 0 0 10px 1px grey;
+    padding: 5px;
     box-shadow: 0 0 0 10px rgba(0 0 0 0.1);
     cursor: pointer;
     position: relative;
@@ -30,7 +30,7 @@
 .veg-icon{
     position: absolute;
     top: 20px;
-    right: 25px;
+    right: 15px;
     height: 25px;
     background-color: #ffff;
 }

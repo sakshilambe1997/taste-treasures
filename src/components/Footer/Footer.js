@@ -1,27 +1,39 @@
 import React from "react";
-import LogoImg from "./../../components/Navbar/logo.png"
-import { Link } from "react-router-dom";
+import Facebook from "./facebook.png";
+import Instagram from "./instagram.png";
+import Twitter from "./twitter.png";
+import Youtube from "./youtube.png";
+import "./Footer.css"
 
 function Footer() {
   return (
     <>
-      <div>
-        <div>
-            <img src={LogoImg} className="footer-logo-img"/>
-            <p>c@2024 TasteTreasures Limited</p>
-            <p>No .55 Sy No 12 Block-ground floor Embassy Tech village | outer ring road, Pune.</p>
+      <div className="footer-container">
+        <div className="footer-menu-container">
+          <h3 className="footer-main-heading">Company</h3>
+          <p className="footer-text">About Us</p>
+          <p className="footer-text">Our Services</p>
+          <p className="footer-text">Privacy Policy</p>
         </div>
-        <div>
-            <h2>Company</h2>
-          <Link to="">About Us</Link>
-          <Link to="">About Us</Link>
-          <Link to="">About Us</Link>
-          <Link to="">About Us</Link>
+
+        <div className="footer-menu-container">
+          <h3 className="footer-main-heading">Get Help</h3>
+          <p className="footer-text">FAQ</p>
+          <p className="footer-text">Services</p>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+
+        <div className="footer-menu-container">
+          <h3 className="footer-main-heading">Contact Us</h3>
+          <img src={Facebook}  className="footer-contact-logo"/>
+          <img src={Instagram} className="footer-contact-logo"/>
+          <img src={Twitter} className="footer-contact-logo"/>
+          <img src={Youtube} className="footer-contact-logo"/>
+        </div>
+
+        <div className="footer-menu-container">
+          <h3 className="footer-main-heading">Address</h3>
+          <p className="footer-text"> Shivaji Nagar,main road Pune.</p>
+        </div>
       </div>
     </>
   );

@@ -1,4 +1,3 @@
-
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
@@ -6,6 +5,8 @@ import Home from './views/Home/Home';
 import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import Menu from './views/Menu/Menu';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

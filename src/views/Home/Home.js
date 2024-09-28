@@ -13,20 +13,24 @@ import Sign from "./agreement.png";
 import Food from "./diet.png";
 import TrendingFoodCard from "../../components/TrendingFoodCard/TrendingFoodCard.js";
 import BrandsCard from "../../components/BrandsCard/BrandsCard.js";
+import Footer from "../../components/Footer/Footer.js";
+import SimpleSlider from "../../components/Slider/Slider.js";
+
 
 function Home() {
   return (
     <div>
       <Navbar />
-      {/* Head image section*/}
 
-      <img src={backGroundImage} className="home-background-head-img" />
+      {/* Head image section*/}
+      <SimpleSlider/>
+
       <div className="background-img-text-div">
         <h3 className="heading-text-red">Welcome To Test Treasures</h3>
         <h1 className="heading-text-white">
-          Fresh ,Delicious meal to reach your optimum health and fitness
+          Fresh ,Delicious meal to reach your<br></br> optimum health and fitness
         </h1>
-        <button className="button">View Menu</button>
+        <button className="button button-position">View Menu</button>
       </div>
 
       {/* Delivery section */}
@@ -74,8 +78,8 @@ function Home() {
 
       <div className="display-flex brand-logo-container">
         {BRANDS.map((brand, i) => {
-          const { imgUrl, title } = brand;
-          return <BrandsCard imgUrl={imgUrl} title={title} />;
+          const { imgUrl, title, brandUrl } = brand;
+          return <BrandsCard imgUrl={imgUrl} title={title} brandUrl={brandUrl} />;
         })}
       </div>
 
@@ -93,6 +97,10 @@ function Home() {
             title={title} />;
         })}
       </div>
+
+
+
+      <Footer/>
     </div>
   );
 }

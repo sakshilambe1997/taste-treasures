@@ -3,6 +3,7 @@ import "./Menu.css"
 import FoodCard from "./../../components/FoodCard/FoodCard.js";
 import {PRODUCTS,TAGLINE} from "./../../config/data.js"
 import Navbar from "./../../components/Navbar/Navbar.js";
+import Footer from '../../components/Footer/Footer.js';
 
 function Menu() {
   return (
@@ -27,6 +28,8 @@ function Menu() {
         })
       }
     </div>
+
+    <Footer/>
  
   </div>
   )
