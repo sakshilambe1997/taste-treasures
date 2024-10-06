@@ -7,6 +7,7 @@ import Contact from './views/Contact/Contact';
 import Menu from './views/Menu/Menu';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Login from './views/Login/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,6 +30,10 @@ const router= createBrowserRouter([
 {
   path:"/contact",
   element:<Contact/>
+},
+{
+  path:"/login",
+  element:<Login/>
 },
 {
   path:"*",

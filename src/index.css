@@ -5,15 +5,28 @@ body {
 
 .button{
   background-color: rgb(236, 236, 21);
-  padding: 7px 15px;
+  padding: 7px 20px;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  border: none;
+  font-size: 17px;
 }
 
 .button:hover{
   background-color: rgb(183, 183, 12);
   color: white;
+}
+
+.background-image{
+   background-image: url("https://img.freepik.com/premium-photo/italian-food-composition-with-big-space-middle_23-2147686550.jpg");
+   background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  min-height: 86vh;
+  padding: 40px;
 }
 
 .button-center{
@@ -27,8 +40,41 @@ body {
   margin: 30px;
 }
 
+.highlight{
+  color: rgb(134, 235, 161);
+}
+
 .display-flex{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.auth-form-div{
+  width: 30%;
+  height: 280px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.922);
+  padding: 10px;
+}
+
+.input-box{
+  width: 80%;
+  display: block;
+  margin: 30px auto;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.auth-btn{
+  display: block;
+  margin: 20px auto;
+}
+
+.text-decoration-none{
+ text-decoration: none;
 }
